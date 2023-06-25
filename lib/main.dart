@@ -36,7 +36,7 @@ class MyApp extends StatelessWidget {
         create: (context) => ScaleProvider(),
         child: MaterialApp(
           debugShowCheckedModeBanner: false,
-          title: 'Flutter Demo',
+          title: 'GPA Calculator',
           theme: ThemeData(
             primarySwatch: Colors.blue,
           ),
@@ -48,7 +48,7 @@ class MyApp extends StatelessWidget {
       create: (context) => SemProv(),
       child: MaterialApp(
         debugShowCheckedModeBanner: false,
-        title: 'Flutter Demo',
+        title: 'GPA Calculator',
         theme: ThemeData(
           primarySwatch: Colors.blue,
         ),
